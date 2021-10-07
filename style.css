@@ -1,0 +1,29 @@
+.centered {
+    position: absolute;
+    top: 38%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.bio {
+    transform: translate(0, 60%);
+}
+.port {
+    text-align: center;
+}
+
+.aspectRatioBox {
+    padding-top: calc(2 / 3 * 100%);
+    background-size: cover;
+    background-position: center;
+}
+
+.title {
+    text-align: center;
+}
+
+.fa {
+    color: black;
+    font-size: 100px;
+  }
