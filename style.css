@@ -1,13 +1,19 @@
 .centered {
     position: absolute;
-    top: 38%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
 }
 
+.white_bg {
+    background-color: #ffffff;
+    padding: 3px;
+    opacity: 0.8;
+}
+
 .bio {
-    transform: translate(0, 60%);
+    transform: translate(0, 20%);
 }
 .port {
     text-align: center;
@@ -17,7 +23,7 @@
     padding-top: calc(2 / 3 * 100%);
     background-size: cover;
     background-position: center;
-}
+  }
 
 .title {
     text-align: center;
